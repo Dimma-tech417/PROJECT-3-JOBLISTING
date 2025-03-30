@@ -204,9 +204,13 @@ header {
 
 
 /* Responsiveness of the Design */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .job-card {
         flex-direction: column;
+        /* padding: 2rem; */
+    }
+    .job-tags span {
+        margin: 0.2rem;
     }
 }
 

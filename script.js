@@ -96,8 +96,9 @@ function updateFilterUI() {
         clearButton.addEventListener("click", function () {
             selectedCategories = [];
             updateFilterUI();
-            displayData (allJobs);
             // filterJobs();
+            displayData (allJobs);
+            
         });
 
         filterContainer.appendChild(clearButton);
